@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'first App';
+  title= 'first project';
+  name="isuru"
+  getName(){
+    return this.name
+  }
+
+  obj={
+    name:'dilshan',
+    age:20
+  }
+
+  arr=['one','two']
 }
