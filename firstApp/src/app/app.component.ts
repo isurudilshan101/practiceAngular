@@ -7,15 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title= 'first project';
-  name="isuru"
-  getName(){
-    return this.name
-  }
-
-  obj={
-    name:'dilshan',
-    age:20
-  }
-
-  arr=['one','two']
+  
 }
