@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title= 'first project';
+  getName(name){
+    alert(name); 
+  }
   
 }
